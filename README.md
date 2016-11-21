@@ -32,4 +32,5 @@ Where,
 License
 -------
 Copyright © 2016 Lucas Walker
+
 The bash code contained in this distribution is licensed under the Creative Commons BY-NC license.
