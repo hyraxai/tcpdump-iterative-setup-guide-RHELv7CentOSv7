@@ -17,8 +17,10 @@ This script will guide the setup of a packet capturing machine and aid the setup
   - Pcap target directory creation (if desired)
   - Permissions adjusting for the pcap target directory (if desired)
 
+
 A series of questions will be asked to essentially fill in the following variables bash command:
   - date +'%Y-%m-%d_%H:%M:%S' | xargs -I {} bash -c "sudo tcpdump -q -i $interface -w $directory/{}$fileName.cap -C $fileSize -W $rolloverInt -Z root"
+
 
 The output of this script will be files that appear as follows:
 
